@@ -23,10 +23,10 @@ keys:
 
 - run: 
 name: install dependencies
-command:|
-python -m venv venv
-. venv/bin/activate
-make install
+command:| 
+python -m venv venv 
+. venv/bin/activate 
+make install 
 # Install hadolint
 wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
 chmod +x /bin/hadolint
