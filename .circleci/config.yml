@@ -21,8 +21,10 @@ keys:
 # fallback to using the latest cache if no exact match is found
 - v1-dependencies-
 
-- run: |
-python3 -m venv venv
+- run: 
+name: install dependencies
+command:|
+python -m venv venv
 . venv/bin/activate
 make install
 # Install hadolint
