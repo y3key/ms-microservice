@@ -23,7 +23,7 @@ keys:
 
 - run: 
 name: install dependencies
-command:| 
+command: | 
 python -m venv venv 
 . venv/bin/activate 
 make install 
